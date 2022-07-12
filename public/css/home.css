@@ -1,9 +1,6 @@
-body{
-  
-}
-
 .body_header{
-background-color: var(--color_Amarillo);
+    background-color: var(--color_Amarillo);
+    font-family: 'Roboto';
 }
 
 .header_div_logo{
@@ -13,56 +10,55 @@ background-color: var(--color_Amarillo);
 
 .header_div_formulario{
     padding: 15px;
-
-}
-
-.header_div_nav{
-
 }
 
 .header_div_burger_menu{
     background-color: var(--color_Celeste);
     color: white;
-    border: solid 1px black;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
     width: 20px;
     margin-left: auto;
     margin-right: auto;
-    border:none
-}
-/* main */
-
-.main{
-
-}
-
-.main_section_ultimavisita{
-
+    padding: 6px;
+    margin-bottom: 20px;
+    border:none;
+    border: solid 1px black;
+    border-radius: 5px;
 }
 
-.main_section_oferta{
-
+section.main_section_ultimavisita h3{
+    text-align: center;
+    font-family: 'Roboto';
 }
 
-/* footer */
+section.main_section_oferta h3{
+    text-align: center;
+    font-family: 'Roboto';
+}
 
 .footer{ 
-     text-align: center;
+    background-color: var(--color_Gris_claro);
+    text-align: center;
     font-family: 'Roboto';
     margin: 10px;
-    
 }
 
-.footer_pago{
-
+div.pago{
+    width: 30px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.footer_envio{
-
+div.envio{
+    width: 30px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.footer_seguridad{
-
+div.seguridad{
+    width: 30px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
