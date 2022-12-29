@@ -3,7 +3,6 @@
 }
 
 .form__label {
-    width: 100%;
     margin-bottom: 10px;
     font-size: 14px;
 }
@@ -39,4 +38,16 @@
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
+}
+
+@media (min-width:768px) {
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .form__box {
+        width: 45%;
+    }
 }
