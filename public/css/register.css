@@ -1,0 +1,18 @@
+.register__main_section h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 22px;
+
+}
+
+.register__main_section {
+    padding: 20px;
+}
+
+@media (min-width:768px) {
+    .register__main_section {
+        width: 350px;
+        margin: 30px auto;
+
+    }
+}
