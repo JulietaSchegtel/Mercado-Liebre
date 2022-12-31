@@ -40,6 +40,12 @@
     gap: 20px;
 }
 
+.form__error__msg {
+    font-size: 10px;
+    color : red;
+    
+}
+
 @media (min-width:768px) {
     .form {
         display: flex;
