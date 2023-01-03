@@ -46,6 +46,12 @@
     
 }
 
+.form_link {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
 @media (min-width:768px) {
     .form {
         display: flex;
